@@ -1,8 +1,8 @@
-const express = require("express");
+import express, { json } from "express";
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.json()); // Middleware to parse JSON requests
+app.use(json()); // Middleware to parse JSON requests
 
 // In-memory storage (temporary)
 let dataStore = [
