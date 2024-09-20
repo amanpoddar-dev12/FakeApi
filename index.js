@@ -7,20 +7,16 @@ app.use(express.json()); // Middleware to parse JSON requests
 // In-memory storage (temporary)
 let dataStore = [
   {
-    cities: [
-      {
-        id: "578c",
-        cityName: "Sonepur",
-        country: "India",
-        emoji: "🇮🇳",
-        date: "2024-09-08T18:40:28.848Z",
-        notes: "",
-        position: {
-          lat: "25.69289353811285",
-          lng: "85.18043295053334",
-        },
-      },
-    ],
+    id: "578c",
+    cityName: "Sonepur",
+    country: "India",
+    emoji: "🇮🇳",
+    date: "2024-09-08T18:40:28.848Z",
+    notes: "",
+    position: {
+      lat: "25.69289353811285",
+      lng: "85.18043295053334",
+    },
   },
 ];
 
