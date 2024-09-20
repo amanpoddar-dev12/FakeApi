@@ -6,6 +6,7 @@
         "start": "json-server --watch cities.json --port $PORT"
     },
     "dependencies": {
+        "express": "^4.21.0",
         "json-server": "^0.16.3"
     },
     "description": "This is a fake api which i use for my worldwise web app",
